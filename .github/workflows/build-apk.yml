@@ -1,53 +1,19 @@
-
-name: Build Android APK
-
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: read
-
-jobs:
-  build:
-    name: Android Debug APK
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Java 17
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-
-      - name: Set up Gradle 8.9
-        uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: '8.9'
-
-      - name: Check Android SDK
+      - name: Diagnose Android Gradle
         run: |
-          echo "ANDROID_HOME=$ANDROID_HOME"
-          echo "ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT"
-          ls -la "$ANDROID_HOME"
+          echo "=== Projektdateien ==="
+          pwd
+          ls -la
+          ls -la app
 
-      - name: Accept SDK licenses
-        run: |
-          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses || true
+          echo "=== Gradle Projekte ==="
+          gradle --no-daemon projects
+
+          echo "=== Gradle Aufgaben ==="
+          gradle --no-daemon :app:tasks --all
+
+          echo "=== Android Plugin ==="
+          cat app/build.gradle
 
       - name: Build Debug APK
         run: |
           gradle --no-daemon --stacktrace :app:assembleDebug
-
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: FirstResponderApp-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
-          if-no-files-found: error
-          retention-days: 30
