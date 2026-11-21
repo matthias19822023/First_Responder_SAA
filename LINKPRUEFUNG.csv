@@ -1,21 +1,26 @@
 ﻿Quellseite;Zielseite;Beschriftung;X_%;Y_%;Breite_%;Hoehe_%;Pruefung
-2;5;Basisalgorithmus 1;45.81;19.86;15.09;2.31;OFFEN
-2;5;Ersteinschätzung;31.13;19.86;13.67;2.31;OFFEN
-2;6;Basisalgorithmus 2;44.57;21.87;15.36;2.31;OFFEN
-2;6;Zweiter Blick;32.15;21.87;10.4;2.31;OFFEN
-2;11;Kreislaufstillstand;31.13;46.21;14.52;2.31;OFFEN
-2;13;Starke Blutung;31.13;50.24;11.8;2.31;OFFEN
-2;8;Atemwegsverlegung;31.13;31.62;16.45;2.31;OFFEN
-2;10;Allergische Reaktion;31.13;40.93;16.33;2.31;OFFEN
-2;14;Hypoglykämie;31.13;54.52;11.39;2.31;OFFEN
-2;14;Krampfanfall;43.72;54.52;10.5;2.31;OFFEN
-2;15;Sonnenstich;31.13;56.53;9.74;2.31;OFFEN
-2;15;Hitzschlag;42.07;56.53;8.24;2.31;OFFEN
-2;17;Wirbelsäulentrauma;31.13;60.56;16.25;2.31;OFFEN
-2;18;Extremitätentrauma;31.13;64.94;16.18;2.31;OFFEN
-2;20;Verbrennung;31.13;68.97;10.32;2.31;OFFEN
-2;20;Verätzung;42.65;68.97;8.05;2.31;OFFEN
-2;22;SAMPLER;31.13;78.21;7.34;2.31;OFFEN
+2;3;Inhaltsverzeichnis: Seite 3;23.86;17.63;20.76;2.79;OFFEN
+2;4;Inhaltsverzeichnis: Seite 4;23.86;19.65;38.6;2.79;OFFEN
+2;6;Inhaltsverzeichnis: Seite 6;23.86;21.66;37.62;2.79;OFFEN
+2;7;Inhaltsverzeichnis: Seite 7;23.86;23.68;54.99;2.79;OFFEN
+2;21;Inhaltsverzeichnis: Seite 21;23.86;75.98;38.24;2.79;OFFEN
+2;22;Inhaltsverzeichnis: Seite 22;23.86;78.0;15.61;2.79;OFFEN
+2;23;Inhaltsverzeichnis: Seite 23;23.86;80.01;20.78;2.79;OFFEN
+2;24;Inhaltsverzeichnis: Seite 24;23.86;82.03;19.31;2.79;OFFEN
+2;11;Inhaltsverzeichnis: Seite 11;23.86;46.0;22.78;2.79;OFFEN
+2;12;Inhaltsverzeichnis: Seite 12;23.86;48.02;24.82;2.79;OFFEN
+2;13;Inhaltsverzeichnis: Seite 13;23.86;50.03;20.07;2.79;OFFEN
+2;14;Inhaltsverzeichnis: Seite 14;23.86;54.31;31.36;2.79;OFFEN
+2;15;Inhaltsverzeichnis: Seite 15;23.86;56.32;27.45;2.79;OFFEN
+2;16;Inhaltsverzeichnis: Seite 16;23.86;58.34;13.89;2.79;OFFEN
+2;17;Inhaltsverzeichnis: Seite 17;23.86;60.35;24.51;2.79;OFFEN
+2;8;Inhaltsverzeichnis: Seite 8;23.86;31.41;24.71;2.79;OFFEN
+2;9;Inhaltsverzeichnis: Seite 9;23.86;38.71;15.47;2.79;OFFEN
+2;10;Inhaltsverzeichnis: Seite 10;23.86;40.72;24.6;2.79;OFFEN
+2;18;Inhaltsverzeichnis: Seite 18;23.86;64.73;24.44;2.79;OFFEN
+2;19;Inhaltsverzeichnis: Seite 19;23.86;66.74;44.05;2.79;OFFEN
+2;20;Inhaltsverzeichnis: Seite 20;23.86;68.76;27.83;2.79;OFFEN
+2;21;Inhaltsverzeichnis: Seite 21;23.86;70.77;36.8;2.79;OFFEN
 4;5;Basisalgorithmus 1;9.43;4.46;25.15;3.6;OFFEN
 4;5;Ersteinschätzung;37.72;4.46;22.64;3.6;OFFEN
 4;5;Ersteinschätzung;10.85;13.62;14.9;2.4;OFFEN
@@ -66,6 +71,7 @@
 14;5;Basisalgorithmus 1;8.1;27.52;15.09;2.34;OFFEN
 14;5;Ersteinschätzung;13.92;12.33;16.98;2.7;OFFEN
 14;5;Ersteinschätzung;7.55;25.82;13.67;2.34;OFFEN
+14;16;BEFAST;13.25;70.94;49.59;3.08;OFFEN
 15;5;Basisalgorithmus 1;31.98;16.17;15.58;2.36;OFFEN
 15;5;Ersteinschätzung;13.92;15.94;16.98;2.7;OFFEN
 15;6;Basisalgorithmus 2;8.1;22.68;15.36;2.34;OFFEN
